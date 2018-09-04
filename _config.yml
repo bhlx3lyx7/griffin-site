@@ -1,0 +1,46 @@
+# Site settings
+title: Griffin
+email: guoyp@apache.org
+description: Apache Griffin - Big Data Quality Solution For Batch and Streaming
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://goeagle.io" # the base hostname & protocol for your site
+
+
+# Build settings
+markdown: kramdown
+permalink: date
+
+#host: 10.254.190.228
+#port: 4000
+
+documentations:
+  - category: Getting Started
+    links:
+      - title: Introduction
+        url: /docs/index.html
+      - title: Use Cases
+        url: /docs/usecases.html
+      - title: Terminology
+        url: /docs/terminology.html
+      - title: Ecosystem
+        url: /docs/ecosystem.html
+      - title: Community
+        url: /docs/community.html
+      - title: FAQ
+        url: /docs/FAQ.html
+  - category: Documentations
+    links:
+      - title: Latest version (v0.5.0)
+        url: /docs/latest/
+  - category: Download
+    links:
+      - title: Latest version (v0.5.0)
+        url: /docs/download-latest.html
+      - title: Archived
+        url: /docs/download.html
+
+  - category: Supplement
+    links:
+      - title: Security
+        url: /docs/security.html
