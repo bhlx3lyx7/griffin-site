@@ -28,22 +28,11 @@ By default, jekyll will generate the site in a `_site` directory.
         
         More content here ..
     
-2. Register the link in documentations sidebar navigation
-
-        documentations:
-          - category: "Some category"
-            links:
-              - title: Some new doc
-                url: /docs/some-new-doc.html
-
 ## Publishing the Apache Website
-In order to publish the website, you must have committer access to Griffin's subversion repository.
+In order to publish the website, you must have committer access to Griffin's apache repository.
 
-The Griffin website is published using Apache svnpubsub. Any changes committed to subversion will be automatically published to Griffin.apache.org.
+To publish changes, run 
 
-To publish changes, tell jekyll to generate the site in the publish directory of subversion, then commit the changes:
-
-    cd docs
-    jekyll build -d /path/to/svn/repo/publish
-    cd /path/to/svn/repo/publish
-    svn commit
+```
+bash ./deploy.sh
+```

@@ -52,7 +52,7 @@ html[xmlns] .clearfix{display:block;}
   }
   #sidebar .nav>li {
     color: #ddd;
-    
+
   }
   #sidebar .nav>li:first-child {
     border-top:0;
@@ -65,13 +65,13 @@ html[xmlns] .clearfix{display:block;}
 
 #sidebar ul.nav > li.current {
   text-decoration: none;
-  color: #008CBA;  
+  color: #008CBA;
   background-color:#efefef;
 }
 
 .#sidebar ul.nav > li:hover {
   text-decoration: none;
-  color: #008CBA;  
+  color: #008CBA;
   margin-right: 20px;
   background-color:#efefef;
 }
@@ -79,7 +79,7 @@ html[xmlns] .clearfix{display:block;}
   #sidebar li.divider {
     margin: 16px 20px 16px 0px;
   }
-  
+
 .divider{
 	  border-top: 1px solid;
     height: 0;
@@ -101,9 +101,7 @@ html[xmlns] .clearfix{display:block;}
 }
 
 .page-content {
-	padding-top: 30px ;
-  padding-bottom: 40px ;
-  
+    padding: 70px 10px;
 }
 
 .page-main-content h1{
