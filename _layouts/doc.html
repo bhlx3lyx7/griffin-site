@@ -4,11 +4,11 @@ layout: page
 
 <div class="container-fluid page-content">
   <div class="row">
-    <div class="col-md-10 col-md-offset-1"> 
+    <div class="col-md-10 col-md-offset-1">
       <!-- sidebar -->
       <div class="col-xs-6 col-sm-3" id="sidebar" role="navigation">
         <ul class="nav" id="adminnav">
-        {% for doc in site.documentations %} 
+        {% for doc in site.documentations %}
         <li class="heading">{{ doc.category }}</li>
         {% for link in doc.links %}
           <li class="sidenavli  {% if link.url == page.permalink %}current{% endif %}"><a href="{{ link.url }}" data-permalink="{{ page.permalink }}" id="{{link.id}}">{{ link.title }}</a></li>
@@ -23,9 +23,9 @@ layout: page
       <div class="col-xs-6 col-sm-9 page-main-content" style="margin-left: -15px" id="loadcontent">
         <h1 class="page-header" style="margin-top: 0px">{{ page.title }}</h1>
         {{ content }}
-      </div><!--end of loadcontent-->  
+      </div><!--end of loadcontent-->
     </div>
-    <!--end of centered content--> 
+    <!--end of centered content-->
   </div>
 </div>
 <!--end of container-->

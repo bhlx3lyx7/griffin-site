@@ -69,7 +69,7 @@ html[xmlns] .clearfix{display:block;}
   background-color:#efefef;
 }
 
-.#sidebar ul.nav > li:hover {
+#sidebar ul.nav > li:hover {
   text-decoration: none;
   color: #008CBA;
   margin-right: 20px;
